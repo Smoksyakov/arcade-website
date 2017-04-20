@@ -1,0 +1,33 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.banner {
+	width: auto;
+	height: 900px;
+	padding-top: 50px;
+	background: url(pinball_1.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    opacity: 0.95;
+    background-attachment: fixed;
+    font-size: 200px;
+    text-align: center;
+    text-shadow: 1px 1px black;
+    color: #cececa;
+}
+
+.spacer {
+	width: 100%;
+	height:300px;
+}
+
+#welcome_pic {
+	height:400px;
+	background: url(stainedglass.jpg);
+	background-repeat: no-repeat;
+	background-size:;
+	background-position: center;
+	border-radius: 30px;
+}
