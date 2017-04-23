@@ -8,24 +8,117 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<script src="js/jquery.js"></script>
 		<script src="js/bootstrap.js"></script>
+		<script>
+				(function ($) {
+		  $(document).ready(function(){
+		    
+			// hide .navbar first
+			$(".navbar").hide();
+			
+			// fade in .navbar
+			$(function () {
+				$(window).scroll(function () {
+		            // set distance user needs to scroll before we fadeIn navbar
+					if ($(this).scrollTop() > 100) {
+						$('.navbar').fadeIn();
+					} else {
+						$('.navbar').fadeOut();
+					}
+				});
+
+			
+			});
+
+		});
+		  }(jQuery));
+		</script>		
 	</head>
 
-	<body>
+	<body style="background-color:;">
 		<div class="banner">
 			GTA,<br>
 			Meet Pinball
 		</div>	
-		<div class="spacer"></div>
-		<div class="container">
-			<div>
-				<center>Welcome to Church</center>
+
+
+
+
+
+
+
+
+
+
+
+
+		<nav class="navbar navbar-default navbar-fixed-top" style="background:black;">
+		  	<div class="container-fluid">
+			    <div class="navbar-header">
+			    	<a class="navbar-brand" href="#" style="font-size:25px;">Home</a>
+			    </div>  
+			    	<ul class="nav navbar-nav navbar-right">
+						<li><a href="#">About</a></li>
+						<li><a href="#">Hours</a></li>
+						<li><a href='#'>Games for Sale</a></li>
+						<li><a href='#'>Repairs</a></li>
+						<li><a href='#'>Contact</a></li>
+					</ul>
+			</div>    
+		</nav>    
+
+
+
+
+
+
+
+		<div class="container-fluid">
+			<div id="section">
+					<div id="article_1" class="col-md-4">
+						<div class="image_block"><img src="Repair.jpg" style="height:250px;width200px;"></div>
+						<div class="article_title">We Repair Machines</div>
+						<div class="article_description">We fix games. We are expert technicians that know the in's and outs on every pinball machine. No matter what the problem is, we can fix it.</div>
+					</div>
+					<div id="article" class="col-md-4">
+						<div class="image_block"><img src="play.jpg" style="height:250px;-webkit-filter:brightness(2.0);"></div>
+						<div class="article_title">We Play Games</div>
+						<div class="article_description">We Love Pinball. It's more than just a hobby here. Our wide selection of pinball games ensures that there is a pinball game for anyone and everone </div>
+					</div>
+					<div id="article" class="col-md-4">
+						<div class="image_block"><img src="memory.jpg" style="height:250px;width200px;"></div>
+						<div class="article_title">We Make Memories</div>
+						<div class="article_description">Have your events here. Save the stress of finding the perfect place to host your office, birthday or leisure event. We have plenty of space for everyone </div>
+					</div>
+					<div class="clearfix"></div>
+			</div>
+
+
+
+			<div id="about">
 				<center>
-					<div class="col-md-12">
-						<img src="stainedglass.jpg" style="width:700px;height:300px;"
+					<div class="col-md-12" style="background:blue;padding:50px;">
+						<h3>Welcome to the World Famous <span style="color:blue;">Church of the Silver Ball</span></h3>
 					</div>
 				</center>	
-
 			</div>
+
+
+
+
 		</div>	
+
+Rule #1:  Its NOT really a church.  We just looooooove pinball.  New pinball.  Old Pinball.  All Pinball. 
+
+But we don’t like Disco.
+
+Rule #2.  I'ts not really a Museum either.  Its a grouping of Pinball Machines from 1930's till present day.
+
+There are many common machines and also a bunch of rare games. Unlike a Museum, you can play most of our machines.  Treat them with respect.
+
+
+
 	</body>
 </html>
+
+
+	
