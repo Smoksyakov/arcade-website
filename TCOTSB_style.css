@@ -21,6 +21,7 @@
 .spacer {
 	width: 100%;
 	height:100px;
+	clear: both;
 }
 
 #welcome_pic {
@@ -72,7 +73,7 @@ nav a {
 }
 
 #section {
-	padding: 8% 0 8% 0;
+	padding: 8% 0 4% 0;
 	margin-top: -250px;
 
 }
@@ -102,5 +103,42 @@ nav a {
 	width: 33%;
 	margin-left:;
 	float: left;
+}
+
+#about {
+	clear: both;
+	color:white;
+	font-family: sans-serif;
+}
+
+
+
+.agenda {  }
+
+/* Dates */
+.agenda .agenda-date { width: 170px; }
+.agenda .agenda-date .dayofmonth {
+  width: 40px;
+  font-size: 36px;
+  line-height: 36px;
+  float: left;
+  text-align: right;
+  margin-right: 10px; 
+}
+.agenda .agenda-date .shortdate {
+  font-size: 0.75em; 
+}
+
+
+/* Times */
+.agenda .agenda-time { width: 140px; } 
+
+
+/* Events */
+.agenda .agenda-events {  } 
+.agenda .agenda-events .agenda-event {  } 
+
+@media (max-width: 767px) {
+    
 }
 
