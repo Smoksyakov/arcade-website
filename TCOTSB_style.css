@@ -101,13 +101,13 @@ nav a {
 .agenda .agenda-date .dayofmonth {
   width: 40px;
   font-size: 36px;
-  line-height: 36px;
+  line-height: 44px;
   float: left;
   text-align: right;
   margin-right: 10px; 
 }
 .agenda .agenda-date .shortdate {
-  font-size: 0.75em; 
+  font-size: 1em; 
 }
 
 
@@ -123,37 +123,51 @@ nav a {
     
 }
 
-.games_for_sale {
+.games {
 	height: 1600px;
-	background: ;
-	padding: 0 50px 50px 50px;
+	background:  ;
 	color: black;
 }
 
-.games_for_sale h1 {
+.games h1 {
 	color: grey;
 	font-size: 75px;
 	margin: 0 0 25px 0;
 }
 
-.games_for_sale ul {
+.games ul {
 	list-style: none;
 }
 
-.games_for_sale li {
+.games li {
 	font-size: 30px;
 }
 
-.games_for_sale h2 {
+.games h2 {
 	font-size: 65px;
 }
 
-.games_for_sale img {
+.games img {
 	border-radius: 20px;
 }
 
 .repairs {
-	height: 800px;
-	background: green;
+	background:;
 	clear: both;
+}
+
+.repair_blocks {
+	background: #DAD9D0;
+	padding: 25px;
+	font-size: 55px;
+}
+
+.before_after {
+	padding: 20px;
+	font-size: 55px;
+}
+
+.before_after img {
+	width: 85%;
+	height: 85%;
 }
