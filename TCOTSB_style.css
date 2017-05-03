@@ -124,35 +124,13 @@ nav a {
 }
 
 .games {
-	height: 1600px;
-	background:  ;
+	clear: both;
 	color: black;
 }
 
-.games h1 {
-	color: grey;
-	font-size: 70px;
-	margin: 0 0 25px 0;
-}
 
-.games ul {
-	list-style: none;
-}
-
-.games li {
-	font-size: 30px;
-}
-
-.games h2 {
-	font-size: 65px;
-}
-
-.games img {
-	border-radius: 20px;
-}
 
 .repairs {
-	background:;
 	clear: both;
 }
 
