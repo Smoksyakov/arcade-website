@@ -123,6 +123,9 @@ nav a {
     
 }
 
+#games {
+	border-radius: 
+}
 
 .repairs {
 	clear: both;
@@ -144,3 +147,18 @@ nav a {
 	height: 85%;
 }
 
+
+.games_background {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  background-image: url(images/pinball_2.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  /* Your filter here   */
+
+}
+
+.container-fluid{
+    padding: 0 !important;
+}
