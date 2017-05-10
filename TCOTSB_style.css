@@ -90,7 +90,7 @@ nav a {
 
 #about {
 	clear: both;
-	color:white;
+	color:#8A8A89;
 }
 
 
@@ -154,11 +154,41 @@ nav a {
   position: absolute;
   background-image: url(images/pinball_2.jpg);
   background-size: cover;
+  background-attachment: fixed;
   background-repeat: no-repeat;
-  /* Your filter here   */
 
 }
+
+.events_background {
+  height: 100%;
+  position: absolute;
+  background-image: url(images/pinball_4.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+
+}
+
+.container-fluid .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
 
 .container-fluid{
-    padding: 0 !important;
+    padding:0  !important;
 }
+
+.modalcontent {
+	padding-top: 10px;
+	background: blue;
+}
+
+#fix a {
+	text-decoration: none;
+	color: inherit;
+}
+
+a:hover {
+	text-decoration: none;
+	}
