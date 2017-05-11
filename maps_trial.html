@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+<h1>245 Matheson Boulevard East,
+
+Unit 14 in Mississauga</h1>
+
+<div id="map" style="width:100%;height:500px"></div>
+
+<script>
+function myMap() {
+  var myCenter = new google.maps.LatLng(43.622426,-79.662788);
+  var mapCanvas = document.getElementById("map");
+  var mapOptions = {center: myCenter, zoom: 13};
+  var map = new google.maps.Map(mapCanvas, mapOptions);
+  var marker = new google.maps.Marker({position:myCenter});
+  marker.setMap(map);
+}
+</script>
+
+
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAYOC18E3pIXbmRqs5p9PnzhKGJvjncvoM&callback=myMap"></script>
+
+
+</body>
+</html>
+
