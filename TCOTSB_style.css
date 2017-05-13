@@ -33,27 +33,19 @@ nav {
 
 nav ul {
 	list-style: none;
-	float: right;
 }
 
 nav ul li {
-	float: right;
-	font-size: 20px;
-	padding: 10px;
-	margin: 0 2px;
-	margin-left: 10px;
 	transition: background 0.5s;
 	cursor: pointer;
+	padding: 10px;
+	font-size: 18px;
 }
 
 .navbar-header {
-	float: right;
-	font-size: 20px;
-	padding: 10px;
-	margin: 0 2px;
-	margin-left: 10px;
 	transition: background 0.5s;
 	cursor: pointer;
+	padding: 10px;
 }
 
 nav ul li:hover {
@@ -181,7 +173,7 @@ nav a {
 
 .modalcontent {
 	padding-top: 10px;
-	background: #E7E6E4
+	background: blue;
 }
 
 #fix a {
