@@ -11,7 +11,6 @@
     background-repeat: no-repeat;
     opacity: 0.95;
     background-attachment: fixed;
-    font-size: 200px;
     text-align: center;
     text-shadow: 1px 1px black;
     color: #cececa;
@@ -184,3 +183,39 @@ nav a {
 a:hover {
 	text-decoration: none;
 	}
+
+
+#Test_Q {
+    font-size: 1200%;
+}
+
+#Welcome_sign {
+	font-size: 75px;
+}
+
+@media all and (max-device-width: 720px){
+    #Test_Q {
+        font-size: 18px;
+    }
+    h3 {
+    	font-size: 20px;
+    }
+}
+
+@media all and (max-device-width: 640px){
+    #Test_Q {
+        font-size: 600%;
+    }
+    #Welcome_sign {
+    	font-size: 50px;
+    }
+}
+
+@media all and (max-device-width: 320px){
+    #Test_Q {
+        font-size: 300%;
+    }
+    h3 {
+    	font-size: 20px;
+    }
+}	
