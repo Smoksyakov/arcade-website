@@ -172,12 +172,17 @@ nav a {
 
 .modalcontent {
 	padding-top: 10px;
-	background: blue;
+	background: white;
+  border-radius: 30px;
 }
 
 #fix a {
 	text-decoration: none;
 	color: inherit;
+}
+
+a {
+  text-decoration: none;
 }
 
 a:hover {
@@ -187,11 +192,49 @@ a:hover {
 
 #Test_Q {
     font-size: 1200%;
+    padding-top: 100px;
 }
 
 #Welcome_sign {
 	font-size: 75px;
 }
+
+#first_three {
+  margin-top: -150px;
+}
+
+.sale_img {
+  max-width: 19em;
+  height: 19em;
+  border-radius: 15px;
+
+}
+
+#games_sale_h1 {
+  font-size: 70px;
+  color: grey;
+  margin-left: 20px;
+
+}
+
+button {
+    background-color: Transparent;
+    background-repeat:no-repeat;
+    border: none;
+    cursor:pointer;
+    overflow: hidden;
+    outline:none;
+}
+
+.carousel-inner img {
+  margin: auto;
+}
+
+.carousel-control.left, .carousel-control.right{ 
+    background: none !important;
+    filter: progid:none !important;>
+}
+
 
 @media all and (max-device-width: 720px){
     #Test_Q {
@@ -205,10 +248,34 @@ a:hover {
 @media all and (max-device-width: 640px){
     #Test_Q {
         font-size: 600%;
+        padding-top: 0px;
     }
+    #banner {
+      height: 500px;
+    }
+    #first_three {
+      display: none;
+    }
+
     #Welcome_sign {
     	font-size: 50px;
     }
+    .sale_img {
+      width: 8em;
+      height: 8em;
+      border-radius: 10px;
+    }
+    .sale_h2 {
+      font-size: 120%;
+    }
+    #games_sale_h1 {
+      font-size: 50px;
+    }
+    .footer_note {
+      font-size: 70%;
+    }
+
+
 }
 
 @media all and (max-device-width: 320px){

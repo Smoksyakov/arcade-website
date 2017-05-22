@@ -43,7 +43,7 @@
 		<div class="container-fluid">
 			<div class="row">
 				<div id="banner" class="col-md-12 col-xs-12">
-					<div id="Test_Q" style="padding-top:100px;">GTA,<br>
+					<div id="Test_Q">GTA,<br>
 					Meet Pinball</div>
 				</div>
 			</div>
@@ -67,12 +67,12 @@
 					    </div>
 					    <div class="collapse navbar-collapse" id="myNavbar">
 					      <ul class="nav navbar-nav navbar-right">
-					        <li><a href="#">About</a></li>
-					        <li><a href="#">Hours</a></li>
-					        <li><a href="#">Games for Sale</a></li>
-					        <li><a href="#">Repairs</a></li>
-					        <li><a href="#">Events</a></li>
-					        <li><a href="#">Contact</a></li>
+					        <li><a href="#about_us">About</a></li>
+					        <li><a href="#hours">Hours</a></li>
+					        <li><a href="#games_sale_h1">Games for Sale</a></li>
+					        <li><a href="#repairs">Repairs</a></li>
+					        <li><a href="#events">Events</a></li>
+					        <li><a href="#contact_us">Contact</a></li>
 					      </ul>
 					    </div>
 				  </div>
@@ -81,20 +81,20 @@
 		</div>
 
 
-		<div class="container-fluid">
-			<div class="row">
+		<div class="container-fluid" id="first_three" style="margin-top:-150px;">
+			<div class="row" id="about_us">
 				<div class="col-md-12" style="margin-top:-150px;">
-					<div class="col-md-4" style="text-align:center;">
+					<div class="col-md-4 col-xs-12" style="text-align:center;">
 						<img src="images/Repair.jpg" style="width:75%;border-radius:20px;">
 						<h2>We Repair Machines</h2>
 						<p>We fix games. We are expert technicians that know the in's and outs on every pinball machine. No matter what the problem is, we can fix it</p>
 					</div>
-					<div class="col-md-4" style="text-align:center;">
+					<div class="col-md-4 col-xs-12" style="text-align:center;">
 						<img src="images/play.jpg" style="width:75%;border-radius:20px;">
 						<h2>We Play Games</h2>
 						<p>We Love Pinball. It's more than just a hobby here. Our wide selection of pinball games ensures that there is a pinball game for anyone and everyone</p>
 					</div>
-					<div class="col-md-4" style="text-align:center;">
+					<div class="col-md-4 col-xs-12" style="text-align:center;">
 						<img src="images/memory.jpg" style="width:75%;border-radius:20px;">
 						<h2>We Make Memories</h2>
 						<p>Have your events here. Save the stress of finding the perfect place to host your office, birthday or leisure event. We have plenty of space for everyone </p>
@@ -135,7 +135,7 @@
 
 			<div class="container-fluid">
 
-			<h1 style="font-size:70px;color:grey;margin-left:20px;">Hours</h1>
+			<h1 style="font-size:70px;color:grey;margin-left:20px;" class="h1_class" id="hours">Hours</h1>
 			    <p class="lead" style="padding:10px;margin-left:20px;">
 			        We Open by appointment or by chance<br>
 			        We also open specific Fridays and Saturdays each month. We call it Pinball Faith.  We charge $20 per person for 4 hours<br>
@@ -143,7 +143,7 @@
 			    </p>
 
 
-			    <div class="agenda" style="padding:10px;margin-left:20px;">
+			    <div class="agenda" style="padding:10px;">
 			        <div class="table-responsive">
 			            <table class="table table-condensed table-bordered">
 			                <thead>
@@ -230,39 +230,386 @@
 		
 
 	
-			<h1 style="font-size:70px;color:grey;margin-left:20px;">Games For Sale</h1>
+			<h1 id="games_sale_h1" >Games For Sale</h1>
 
 
 				<div class="container-fluid">	
 					<div class="row">
-						<div class="col-md-12 games_background">
-							<div class="col-md-12"  style="background:;padding:50px 0 25px 0;text-align:center;">
-								<div class="col-md-4">
-									<img src="images/play.jpg" style="max-width:19em;height:19em;border-radius:15px;">
-									<h2>Flash Baseball</h2>
+						<div class="col-md-12 col-xs-12 games_background">
+							<div class="col-md-12 col-xs-12"  style="background:;padding:50px 0 25px 0;text-align:center;">
+
+
+
+								<div class="col-md-4 col-xs-4">
+									<button class"game_btn" data-toggle="modal" data-target="#game_1">
+										<img src="images/play.jpg" class="sale_img">
+										<center><h4 class="h4_test">Click to View More</h4></center>
+										<center><h2 class="sale_h2">Flash Baseball</h2></center>
+									</button>
+									<div id="game_1" class="modal fade">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												<div class="modal_body_game1">
+													<div class="container-fluid" >
+														<div class="row">
+
+															<div class="col-md-5" style="padding:2%;">
+																<h2>Example</h2>  
+																<div id="myCarousel" class="carousel slide" data-ride="carousel">
+																	<ol class="carousel-indicators">
+																	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+																	    <li data-target="#myCarousel" data-slide-to="1"></li>
+																	    <li data-target="#myCarousel" data-slide-to="2"></li>
+																	</ol>
+
+																	    <div class="carousel-inner">
+																	      <div class="item active">
+																	        <center><img src="images/play.jpg" alt="Los Angeles" style="width:18em;height:18em;"></center>
+																	      </div>
+
+																	      <div class="item">
+																	        <center><img src="images/play.jpg" alt="Chicago" style="width:18em;height:18em;"></center>
+																	      </div>
+																	    
+																	      <div class="item">
+																	        <center><img src="images/play.jpg" alt="New york" style="width:18em;height:18em;"></center>
+																	      </div>
+																	    </div>
+
+																	    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+																	      <span class="glyphicon glyphicon-chevron-left"></span>
+																	      <span class="sr-only">Previous</span>
+																	    </a>
+																	    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+																	      <span class="glyphicon glyphicon-chevron-right"></span>
+																	      <span class="sr-only">Next</span>
+																	    </a>
+																</div>
+
+															</div>	
+															<div class="col-md-7" style="padding:2%;margin-top:10%;font-size:30px;">
+																<div>Condition Status</div>
+																<div>Unique Fact</div>
+																<div>Unique Fact</div>
+																<div>Price</div>
+															</div>
+														</div>	
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	
 								</div>
-								<div class="col-md-4">
-									<img src="images/play.jpg" style="max-width:19em;height:19em;border-radius:15px;">
-									<h2>Flash Baseball</h2>
+
+
+								<div class="col-md-4 col-xs-4">
+									<button class"game_btn" data-toggle="modal" data-target="#game_1">
+										<img src="images/play.jpg" class="sale_img">
+										<center><h4 class="h4_test">Click to View More</h4></center>
+										<center><h2 class="sale_h2">Flash Baseball</h2></center>
+									</button>
+									<div id="game_1" class="modal fade">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												<div class="modal_body_game1">
+													<div class="container-fluid" >
+														<div class="row">
+
+															<div class="col-md-5" style="padding:2%;">
+																<h2>Example</h2>  
+																<div id="myCarousel" class="carousel slide" data-ride="carousel">
+																	<ol class="carousel-indicators">
+																	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+																	    <li data-target="#myCarousel" data-slide-to="1"></li>
+																	    <li data-target="#myCarousel" data-slide-to="2"></li>
+																	</ol>
+
+																	    <div class="carousel-inner">
+																	      <div class="item active">
+																	        <center><img src="images/play.jpg" alt="Los Angeles" style="width:18em;height:18em;"></center>
+																	      </div>
+
+																	      <div class="item">
+																	        <center><img src="images/play.jpg" alt="Chicago" style="width:18em;height:18em;"></center>
+																	      </div>
+																	    
+																	      <div class="item">
+																	        <center><img src="images/play.jpg" alt="New york" style="width:18em;height:18em;"></center>
+																	      </div>
+																	    </div>
+
+																	    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+																	      <span class="glyphicon glyphicon-chevron-left"></span>
+																	      <span class="sr-only">Previous</span>
+																	    </a>
+																	    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+																	      <span class="glyphicon glyphicon-chevron-right"></span>
+																	      <span class="sr-only">Next</span>
+																	    </a>
+																</div>
+
+															</div>	
+															<div class="col-md-7" style="padding:2%;margin-top:10%;font-size:30px;">
+																<div>Condition Status</div>
+																<div>Unique Fact</div>
+																<div>Unique Fact</div>
+																<div>Price</div>
+															</div>
+														</div>	
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	
 								</div>
-								<div class="col-md-4">
-									<img src="images/play.jpg" style="max-width:19em;height:19em;border-radius:15px;">
-									<h2>Flash Baseball</h2>
+
+								<div class="col-md-4 col-xs-4">
+									<button class"game_btn" data-toggle="modal" data-target="#game_1">
+										<img src="images/play.jpg" class="sale_img">
+										<center><h4 class="h4_test">Click to View More</h4></center>
+										<center><h2 class="sale_h2">Flash Baseball</h2></center>
+									</button>
+									<div id="game_1" class="modal fade">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												<div class="modal_body_game1">
+													<div class="container-fluid" >
+														<div class="row">
+
+															<div class="col-md-5" style="padding:2%;">
+																<h2>Example</h2>  
+																<div id="myCarousel" class="carousel slide" data-ride="carousel">
+																	<ol class="carousel-indicators">
+																	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+																	    <li data-target="#myCarousel" data-slide-to="1"></li>
+																	    <li data-target="#myCarousel" data-slide-to="2"></li>
+																	</ol>
+
+																	    <div class="carousel-inner">
+																	      <div class="item active">
+																	        <center><img src="images/play.jpg" alt="Los Angeles" style="width:18em;height:18em;"></center>
+																	      </div>
+
+																	      <div class="item">
+																	        <center><img src="images/play.jpg" alt="Chicago" style="width:18em;height:18em;"></center>
+																	      </div>
+																	    
+																	      <div class="item">
+																	        <center><img src="images/play.jpg" alt="New york" style="width:18em;height:18em;"></center>
+																	      </div>
+																	    </div>
+
+																	    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+																	      <span class="glyphicon glyphicon-chevron-left"></span>
+																	      <span class="sr-only">Previous</span>
+																	    </a>
+																	    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+																	      <span class="glyphicon glyphicon-chevron-right"></span>
+																	      <span class="sr-only">Next</span>
+																	    </a>
+																</div>
+
+															</div>	
+															<div class="col-md-7" style="padding:2%;margin-top:10%;font-size:30px;">
+																<div>Condition Status</div>
+																<div>Unique Fact</div>
+																<div>Unique Fact</div>
+																<div>Price</div>
+															</div>
+														</div>	
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	
 								</div>
+
 							</div>
 							<div class="col-md-12" style="background:;padding:0 0 25px 0;text-align:center;">
-								<div class="col-md-4">
-									<img src="images/play.jpg" style="max-width:19em;height:19em;border-radius:15px;">
-									<h2>Flash Baseball</h2>
+
+								<div class="col-md-4 col-xs-4">
+									<button class"game_btn" data-toggle="modal" data-target="#game_1">
+										<img src="images/play.jpg" class="sale_img">
+										<center><h4 class="h4_test">Click to View More</h4></center>
+										<center><h2 class="sale_h2">Flash Baseball</h2></center>
+									</button>
+									<div id="game_1" class="modal fade">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												<div class="modal_body_game1">
+													<div class="container-fluid" >
+														<div class="row">
+
+															<div class="col-md-5" style="padding:2%;">
+																<h2>Example</h2>  
+																<div id="myCarousel" class="carousel slide" data-ride="carousel">
+																	<ol class="carousel-indicators">
+																	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+																	    <li data-target="#myCarousel" data-slide-to="1"></li>
+																	    <li data-target="#myCarousel" data-slide-to="2"></li>
+																	</ol>
+
+																	    <div class="carousel-inner">
+																	      <div class="item active">
+																	        <center><img src="images/play.jpg" alt="Los Angeles" style="width:18em;height:18em;"></center>
+																	      </div>
+
+																	      <div class="item">
+																	        <center><img src="images/play.jpg" alt="Chicago" style="width:18em;height:18em;"></center>
+																	      </div>
+																	    
+																	      <div class="item">
+																	        <center><img src="images/play.jpg" alt="New york" style="width:18em;height:18em;"></center>
+																	      </div>
+																	    </div>
+
+																	    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+																	      <span class="glyphicon glyphicon-chevron-left"></span>
+																	      <span class="sr-only">Previous</span>
+																	    </a>
+																	    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+																	      <span class="glyphicon glyphicon-chevron-right"></span>
+																	      <span class="sr-only">Next</span>
+																	    </a>
+																</div>
+
+															</div>	
+															<div class="col-md-7" style="padding:2%;margin-top:10%;font-size:30px;">
+																<div>Condition Status</div>
+																<div>Unique Fact</div>
+																<div>Unique Fact</div>
+																<div>Price</div>
+															</div>
+														</div>	
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	
 								</div>
-								<div class="col-md-4">
-									<img src="images/play.jpg" style="max-width:19em;height:19em;border-radius:15px;">
-									<h2>Flash Baseball</h2>
+
+								<div class="col-md-4 col-xs-4">
+									<button class"game_btn" data-toggle="modal" data-target="#game_1">
+										<img src="images/play.jpg" class="sale_img">
+										<center><h4 class="h4_test">Click to View More</h4></center>
+										<center><h2 class="sale_h2">Flash Baseball</h2></center>
+									</button>
+									<div id="game_1" class="modal fade">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												<div class="modal_body_game1">
+													<div class="container-fluid" >
+														<div class="row">
+
+															<div class="col-md-5" style="padding:2%;">
+																<h2>Example</h2>  
+																<div id="myCarousel" class="carousel slide" data-ride="carousel">
+																	<ol class="carousel-indicators">
+																	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+																	    <li data-target="#myCarousel" data-slide-to="1"></li>
+																	    <li data-target="#myCarousel" data-slide-to="2"></li>
+																	</ol>
+
+																	    <div class="carousel-inner">
+																	      <div class="item active">
+																	        <center><img src="images/play.jpg" alt="Los Angeles" style="width:18em;height:18em;"></center>
+																	      </div>
+
+																	      <div class="item">
+																	        <center><img src="images/play.jpg" alt="Chicago" style="width:18em;height:18em;"></center>
+																	      </div>
+																	    
+																	      <div class="item">
+																	        <center><img src="images/play.jpg" alt="New york" style="width:18em;height:18em;"></center>
+																	      </div>
+																	    </div>
+
+																	    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+																	      <span class="glyphicon glyphicon-chevron-left"></span>
+																	      <span class="sr-only">Previous</span>
+																	    </a>
+																	    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+																	      <span class="glyphicon glyphicon-chevron-right"></span>
+																	      <span class="sr-only">Next</span>
+																	    </a>
+																</div>
+
+															</div>	
+															<div class="col-md-7" style="padding:2%;margin-top:10%;font-size:30px;">
+																<div>Condition Status</div>
+																<div>Unique Fact</div>
+																<div>Unique Fact</div>
+																<div>Price</div>
+															</div>
+														</div>	
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	
 								</div>
-								<div class="col-md-4">
-									<img src="images/play.jpg" style="max-width:19em;height:19em;border-radius:15px;">
-									<h2>Flash Baseball</h2>
+
+								<div class="col-md-4 col-xs-4">
+									<button class"game_btn" data-toggle="modal" data-target="#game_1">
+										<img src="images/play.jpg" class="sale_img">
+										<center><h4 class="h4_test">Click to View More</h4></center>
+										<center><h2 class="sale_h2">Flash Baseball</h2></center>
+									</button>
+									<div id="game_1" class="modal fade">
+										<div class="modal-dialog modal-lg">
+											<div class="modal-content">
+												<div class="modal_body_game1">
+													<div class="container-fluid" >
+														<div class="row">
+
+															<div class="col-md-5" style="padding:2%;">
+																<h2>Example</h2>  
+																<div id="myCarousel" class="carousel slide" data-ride="carousel">
+																	<ol class="carousel-indicators">
+																	    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+																	    <li data-target="#myCarousel" data-slide-to="1"></li>
+																	    <li data-target="#myCarousel" data-slide-to="2"></li>
+																	</ol>
+
+																	    <div class="carousel-inner">
+																	      <div class="item active">
+																	        <center><img src="images/play.jpg" alt="Los Angeles" style="width:18em;height:18em;"></center>
+																	      </div>
+
+																	      <div class="item">
+																	        <center><img src="images/play.jpg" alt="Chicago" style="width:18em;height:18em;"></center>
+																	      </div>
+																	    
+																	      <div class="item">
+																	        <center><img src="images/play.jpg" alt="New york" style="width:18em;height:18em;"></center>
+																	      </div>
+																	    </div>
+
+																	    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+																	      <span class="glyphicon glyphicon-chevron-left"></span>
+																	      <span class="sr-only">Previous</span>
+																	    </a>
+																	    <a class="right carousel-control" href="#myCarousel" data-slide="next">
+																	      <span class="glyphicon glyphicon-chevron-right"></span>
+																	      <span class="sr-only">Next</span>
+																	    </a>
+																</div>
+
+															</div>	
+															<div class="col-md-7" style="padding:2%;margin-top:10%;font-size:30px;">
+																<div>Condition Status</div>
+																<div>Unique Fact</div>
+																<div>Unique Fact</div>
+																<div>Price</div>
+															</div>
+														</div>	
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>	
 								</div>
+
 							</div>	
 						</div>	
 					</div>	
@@ -283,7 +630,7 @@
 
 
 
-		<h1 style="font-size:70px;color:grey;margin-left:20px;">Repairs</h1>
+		<h1 style="font-size:70px;color:grey;margin-left:20px;" id="repairs">Repairs</h1>
 
 		
 
@@ -320,7 +667,7 @@
 
 		<div class="spacer"></div>
 
-		<h1 style="font-size:70px;color:grey;margin-left:20px;">Events</h1>
+		<h1 style="font-size:70px;color:grey;margin-left:20px;" id="events">Events</h1>
 	
 
 
@@ -333,7 +680,7 @@
 
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12 events_background" style="padding:25px;color:black;">
+				<div class="col-md-12 events_background" style="padding:25px;color:black;font-weight:bold;">
 						<div class="col-md-offset-1 col-md-10"  style="background-color:rgba(255, 0, 0, 0.6);padding:25px;text-align:center;border:3px solid black;">
 							<div class="col-md-3">
 								<center>
@@ -388,9 +735,9 @@
 
 		<div class="spacer"></div>
 
-		<div class="repairs">
-			<h1 style="font-size:70px;color:grey;margin-left:20px;">Contact Us</h1>
-		</div>
+		<h1 style="font-size:70px;color:grey;margin-left:20px;" id="contact_us">Contact Us</h1>
+
+
 
 
 
@@ -419,26 +766,26 @@
 					</center>
 					<center>
 						<div class="col-md-3 col-xs-6" id="fix">
-							<i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
+							<a href="maps_trial.html" target="_blank"><i class="fa fa-map-marker fa-5x" aria-hidden="true"></i>
 							<br>
 							<br>
-							<a href="maps_trial.html" target="_blank"><button type="button" class="btn">Our Location!</button><a>
+							<button type="button" class="btn">Our Location!</button><a>
 						</div>
 					</center>
 					<center>
 						<div class="col-md-3 col-xs-6" id="fix">
-							<i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i>
+							<a href="mailto:amoksyakov@hotmail.com?Subject=Hello" target="_top"><i class="fa fa-envelope-o fa-5x" aria-hidden="true"></i>
 							<br>
 							<br>
-							<a href="mailto:amoksyakov@hotmail.com?Subject=Hello" target="_top"><button type="button" class="btn">Email Us!</button></a>
+							<button type="button" class="btn">Email Us!</button></a>
 						</div>
 					</center>
 					<center>
 						<div class="col-md-3 col-xs-6" id="fix">
-							<i class="fa fa-instagram fa-5x" aria-hidden="true"></i>
+							<a href="https://www.instagram.com/thechurchofthesilverball/" target="_blank"><i class="fa fa-instagram fa-5x" aria-hidden="true"></i>
 							<br>
 							<br>
-							<a href="https://www.instagram.com/thechurchofthesilverball/" target="_blank"><button type="button" class="btn">Follow Us!</button></a>
+							<button type="button" class="btn">Follow Us!</button></a>
 						</div>
 					</center>
 					<div class="col-md-offset-2 col-md-8 col-xs-offset-2 col-xs-8" style="color:#AEADA8">
@@ -462,15 +809,15 @@
 
 		<div class="container-fluid">
 			<div class="row">
-				<div class="col-md-12 col-xs-12" style="background:#3D3D3D;color:#DEDDD8">
-					<div class="col-md-3 col-xs-4" style="padding:15px;">
-						Copyright &copy; 2017 Rich Hill Design
+				<div class="col-md-12 col-xs-12 footer_note" style="background:#3D3D3D;color:#DEDDD8">
+					<div class="col-md-4 col-xs-4" style="padding:15px;">
+						<center>Copyright &copy; 2017 Rich Hill Design</center>
 					</div>
-					<div class="col-md-offset-2 col-md-3 col-xs-4" style="padding:15px;">
-						Church of the Silver Ball
+					<div class="col-md-4 col-xs-4" style="padding:15px;">
+						<center>Church of the Silver Ball</center>
 					</div>
-					<div class="col-md-offset-2 col-md-2 col-xs-4" style="padding:15px;">
-						Back to Top
+					<div class="col-md-4 col-xs-4" style="padding:15px;">
+						<a style="text-decoration:none;color:#DEDDD8;" href="#about_us"><center>Back to Top</center></a>
 					</div>
 				</div>
 			</div>
