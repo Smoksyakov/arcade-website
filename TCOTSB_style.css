@@ -1,6 +1,7 @@
 * {
     margin: 0px;
     padding: 0px;
+    font-family: 'Acme'
 }
 
 #banner {
@@ -243,6 +244,9 @@ button {
     h3 {
     	font-size: 20px;
     }
+    #first_three {
+      display: none;
+    }
 }
 
 @media all and (max-device-width: 640px){
@@ -284,5 +288,8 @@ button {
     }
     h3 {
     	font-size: 20px;
+    }
+    #first_three {
+      display: none;
     }
 }	
