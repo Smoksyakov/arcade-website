@@ -194,6 +194,10 @@ a:hover {
 #Test_Q {
     font-size: 1200%;
     padding-top: 100px;
+    -webkit-filter: opacity(0.9);
+    opacity: 0.9;
+    text-shadow: 2px 2px black;
+
 }
 
 #Welcome_sign {
